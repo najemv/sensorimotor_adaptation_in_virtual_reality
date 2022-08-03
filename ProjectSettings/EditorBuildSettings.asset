@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
+  - enabled: 1
+    path: Assets/Scenes/MainMenu.unity
+    guid: 56ddeb336ae9b9244854016c04140788
+  - enabled: 1
+    path: Assets/Scenes/IdInput.unity
+    guid: 0e74bd92e61b52847b7cca5dd80d27ee
+  - enabled: 1
+    path: Assets/Scenes/HandSelection.unity
+    guid: 9f6a2a5ffb27578418f754b54c139faf
+  - enabled: 1
+    path: Assets/Scenes/DrawingTasks.unity
+    guid: 14de47846010ad14f9168ea4f8ab51ea
+  m_configObjects:
+    Unity.XR.Oculus.Settings: {fileID: 11400000, guid: 885ed2fa0b937c64abeb0c6ae61fbec8, type: 2}
+    UnityEditor.XR.ARCore.ARCoreSettings: {fileID: 11400000, guid: ed811517569bdba4d88c575de7b4f2f3, type: 2}
+    com.unity.input.settings: {fileID: 11400000, guid: 109ec1c6e0a8c17468bb3cbc0f9648a4, type: 2}
+    com.unity.xr.management.loader_settings: {fileID: 11400000, guid: e0b549cca980e8a42a2a0b00ae6f0d43, type: 2}
+    xr.sdk.mock-hmd.settings: {fileID: 11400000, guid: affa2c5162ffbbd4cab6f297356fb5f7, type: 2}
