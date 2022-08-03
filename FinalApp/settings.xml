@@ -1,0 +1,2175 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Settings xmlns:i="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schemas.datacontract.org/2004/07/">
+	<DefaultSequenceName>Rotace - krátké</DefaultSequenceName>
+	<Sequences>
+		<Sequence>
+			<Name>Rotace - krátké</Name>
+			<EpisodeDuration>20</EpisodeDuration>
+			<PauseDuration>5</PauseDuration>
+			<MeasureIn3D>false</MeasureIn3D>
+			<ObjectName>Eight</ObjectName>
+			<Parts>
+				<SequencePart>
+					<Name>Cvičná sekvence</Name>
+					<Description>Cvičná sekvence. Snažte se kopírovat tvar objektu co nejpřesněji. Pokračujte, dokud běží čas a dokud je objekt viditelný.</Description>
+					<EnableMeasurement>false</EnableMeasurement>
+					<Episodes>
+						<Episode>
+							<Name>Zácvik</Name>
+							<Distortions />
+						</Episode>
+						<Episode>
+							<Name>Zácvik</Name>
+							<Distortions />
+						</Episode>
+					</Episodes>
+				</SequencePart>
+				<SequencePart>
+					<Name>Ostrá sekvence</Name>
+					<Description>Měřená sekvence. Stejné pokyny jako pro cvičnou sekvenci. Váš pohyb bude orotovaný.</Description>
+					<EnableMeasurement>true</EnableMeasurement>
+					<Episodes>
+						<Episode>
+							<Name>Rotace 0°</Name>
+							<Distortions>
+								<Distortion i:type="Rotate">
+									<RotationX>0</RotationX>
+									<RotationY>0</RotationY>
+									<RotationZ>0</RotationZ>
+								</Distortion>
+							</Distortions>
+						</Episode>
+						<Episode>
+							<Name>Rotace 45°</Name>
+							<Distortions>
+								<Distortion i:type="Rotate">
+									<RotationX>0</RotationX>
+									<RotationY>0</RotationY>
+									<RotationZ>45</RotationZ>
+								</Distortion>
+							</Distortions>
+						</Episode>
+						<Episode>
+							<Name>Rotace 90°</Name>
+							<Distortions>
+								<Distortion i:type="Rotate">
+									<RotationX>0</RotationX>
+									<RotationY>0</RotationY>
+									<RotationZ>90</RotationZ>
+								</Distortion>
+							</Distortions>
+						</Episode>
+						<Episode>
+							<Name>Rotace 135°</Name>
+							<Distortions>
+								<Distortion i:type="Rotate">
+									<RotationX>0</RotationX>
+									<RotationY>0</RotationY>
+									<RotationZ>135</RotationZ>
+								</Distortion>
+							</Distortions>
+						</Episode>
+						<Episode>
+							<Name>Rotace 180°</Name>
+							<Distortions>
+								<Distortion i:type="Rotate">
+									<RotationX>0</RotationX>
+									<RotationY>0</RotationY>
+									<RotationZ>180</RotationZ>
+								</Distortion>
+							</Distortions>
+						</Episode>
+						<Episode>
+							<Name>Rotace 225°</Name>
+							<Distortions>
+								<Distortion i:type="Rotate">
+									<RotationX>0</RotationX>
+									<RotationY>0</RotationY>
+									<RotationZ>225</RotationZ>
+								</Distortion>
+							</Distortions>
+						</Episode>
+						<Episode>
+							<Name>Rotace 270°</Name>
+							<Distortions>
+								<Distortion i:type="Rotate">
+									<RotationX>0</RotationX>
+									<RotationY>0</RotationY>
+									<RotationZ>270</RotationZ>
+								</Distortion>
+							</Distortions>
+						</Episode>
+						<Episode>
+							<Name>Rotace 315°</Name>
+							<Distortions>
+								<Distortion i:type="Rotate">
+									<RotationX>0</RotationX>
+									<RotationY>0</RotationY>
+									<RotationZ>315</RotationZ>
+								</Distortion>
+							</Distortions>
+						</Episode>
+					</Episodes>
+				</SequencePart>
+			</Parts>
+		</Sequence>
+		<Sequence>
+			<Name>Postupná rotace - 12°</Name>
+			<EpisodeDuration>40</EpisodeDuration>
+			<PauseDuration>20</PauseDuration>
+			<MeasureIn3D>false</MeasureIn3D>
+			<ObjectName>Star</ObjectName>
+			<Parts>
+				<SequencePart>
+					<Name>Cvičná sekvence</Name>
+					<Description>Cvičná sekvence. Snažte se kopírovat tvar objektu co nejpřesněji. Pokračujte, dokud běží čas a dokud je objekt viditelný.</Description>
+					<EnableMeasurement>false</EnableMeasurement>
+					<Episodes>
+						<Episode>
+							<Name>Zácvik</Name>
+							<Distortions />
+						</Episode>
+						<Episode>
+							<Name>Zácvik</Name>
+							<Distortions />
+						</Episode>
+						<Episode>
+							<Name>Zácvik</Name>
+							<Distortions />
+						</Episode>
+						<Episode>
+							<Name>Zácvik</Name>
+							<Distortions />
+						</Episode>
+						<Episode>
+							<Name>Zácvik</Name>
+							<Distortions />
+						</Episode>
+					</Episodes>
+				</SequencePart>
+				<SequencePart>
+					<Name>Ostrá sekvence</Name>
+					<Description>Měřená sekvence. Stejné pokyny jako pro cvičnou sekvenci. Váš pohyb bude ovlivněn rotací.</Description>
+					<EnableMeasurement>true</EnableMeasurement>
+					<Episodes>
+						<Episode>
+							<Name>Rotace 0°</Name>
+							<Distortions>
+								<Distortion i:type="Rotate">
+									<RotationX>0</RotationX>
+									<RotationY>0</RotationY>
+									<RotationZ>0</RotationZ>
+								</Distortion>
+							</Distortions>
+						</Episode>
+						<Episode>
+							<Name>Rotace 12°</Name>
+							<Distortions>
+								<Distortion i:type="Rotate">
+									<RotationX>0</RotationX>
+									<RotationY>0</RotationY>
+									<RotationZ>12</RotationZ>
+								</Distortion>
+							</Distortions>
+						</Episode>
+						<Episode>
+							<Name>Rotace 24°</Name>
+							<Distortions>
+								<Distortion i:type="Rotate">
+									<RotationX>0</RotationX>
+									<RotationY>0</RotationY>
+									<RotationZ>24</RotationZ>
+								</Distortion>
+							</Distortions>
+						</Episode>
+						<Episode>
+							<Name>Rotace 36°</Name>
+							<Distortions>
+								<Distortion i:type="Rotate">
+									<RotationX>0</RotationX>
+									<RotationY>0</RotationY>
+									<RotationZ>36</RotationZ>
+								</Distortion>
+							</Distortions>
+						</Episode>
+						<Episode>
+							<Name>Rotace 48°</Name>
+							<Distortions>
+								<Distortion i:type="Rotate">
+									<RotationX>0</RotationX>
+									<RotationY>0</RotationY>
+									<RotationZ>48</RotationZ>
+								</Distortion>
+							</Distortions>
+						</Episode>
+						<Episode>
+							<Name>Rotace 60°</Name>
+							<Distortions>
+								<Distortion i:type="Rotate">
+									<RotationX>0</RotationX>
+									<RotationY>0</RotationY>
+									<RotationZ>60</RotationZ>
+								</Distortion>
+							</Distortions>
+						</Episode>
+						<Episode>
+							<Name>Rotace 72°</Name>
+							<Distortions>
+								<Distortion i:type="Rotate">
+									<RotationX>0</RotationX>
+									<RotationY>0</RotationY>
+									<RotationZ>72</RotationZ>
+								</Distortion>
+							</Distortions>
+						</Episode>
+						<Episode>
+							<Name>Rotace 84°</Name>
+							<Distortions>
+								<Distortion i:type="Rotate">
+									<RotationX>0</RotationX>
+									<RotationY>0</RotationY>
+									<RotationZ>84</RotationZ>
+								</Distortion>
+							</Distortions>
+						</Episode>
+						<Episode>
+							<Name>Rotace 96°</Name>
+							<Distortions>
+								<Distortion i:type="Rotate">
+									<RotationX>0</RotationX>
+									<RotationY>0</RotationY>
+									<RotationZ>96</RotationZ>
+								</Distortion>
+							</Distortions>
+						</Episode>
+						<Episode>
+							<Name>Rotace 108°</Name>
+							<Distortions>
+								<Distortion i:type="Rotate">
+									<RotationX>0</RotationX>
+									<RotationY>0</RotationY>
+									<RotationZ>108</RotationZ>
+								</Distortion>
+							</Distortions>
+						</Episode>
+						<Episode>
+							<Name>Rotace 120°</Name>
+							<Distortions>
+								<Distortion i:type="Rotate">
+									<RotationX>0</RotationX>
+									<RotationY>0</RotationY>
+									<RotationZ>120</RotationZ>
+								</Distortion>
+							</Distortions>
+						</Episode>
+						<Episode>
+							<Name>Rotace 132°</Name>
+							<Distortions>
+								<Distortion i:type="Rotate">
+									<RotationX>0</RotationX>
+									<RotationY>0</RotationY>
+									<RotationZ>132</RotationZ>
+								</Distortion>
+							</Distortions>
+						</Episode>
+						<Episode>
+							<Name>Rotace 144°</Name>
+							<Distortions>
+								<Distortion i:type="Rotate">
+									<RotationX>0</RotationX>
+									<RotationY>0</RotationY>
+									<RotationZ>144</RotationZ>
+								</Distortion>
+							</Distortions>
+						</Episode>
+						<Episode>
+							<Name>Rotace 156°</Name>
+							<Distortions>
+								<Distortion i:type="Rotate">
+									<RotationX>0</RotationX>
+									<RotationY>0</RotationY>
+									<RotationZ>156</RotationZ>
+								</Distortion>
+							</Distortions>
+						</Episode>
+						<Episode>
+							<Name>Rotace 168°</Name>
+							<Distortions>
+								<Distortion i:type="Rotate">
+									<RotationX>0</RotationX>
+									<RotationY>0</RotationY>
+									<RotationZ>168</RotationZ>
+								</Distortion>
+							</Distortions>
+						</Episode>
+						<Episode>
+							<Name>Rotace 180°</Name>
+							<Distortions>
+								<Distortion i:type="Rotate">
+									<RotationX>0</RotationX>
+									<RotationY>0</RotationY>
+									<RotationZ>180</RotationZ>
+								</Distortion>
+							</Distortions>
+						</Episode>
+						<Episode>
+							<Name>Rotace 192°</Name>
+							<Distortions>
+								<Distortion i:type="Rotate">
+									<RotationX>0</RotationX>
+									<RotationY>0</RotationY>
+									<RotationZ>192</RotationZ>
+								</Distortion>
+							</Distortions>
+						</Episode>
+						<Episode>
+							<Name>Rotace 204°</Name>
+							<Distortions>
+								<Distortion i:type="Rotate">
+									<RotationX>0</RotationX>
+									<RotationY>0</RotationY>
+									<RotationZ>204</RotationZ>
+								</Distortion>
+							</Distortions>
+						</Episode>
+						<Episode>
+							<Name>Rotace 216°</Name>
+							<Distortions>
+								<Distortion i:type="Rotate">
+									<RotationX>0</RotationX>
+									<RotationY>0</RotationY>
+									<RotationZ>216</RotationZ>
+								</Distortion>
+							</Distortions>
+						</Episode>
+						<Episode>
+							<Name>Rotace 228°</Name>
+							<Distortions>
+								<Distortion i:type="Rotate">
+									<RotationX>0</RotationX>
+									<RotationY>0</RotationY>
+									<RotationZ>228</RotationZ>
+								</Distortion>
+							</Distortions>
+						</Episode>
+						<Episode>
+							<Name>Rotace 240°</Name>
+							<Distortions>
+								<Distortion i:type="Rotate">
+									<RotationX>0</RotationX>
+									<RotationY>0</RotationY>
+									<RotationZ>240</RotationZ>
+								</Distortion>
+							</Distortions>
+						</Episode>
+						<Episode>
+							<Name>Rotace 252°</Name>
+							<Distortions>
+								<Distortion i:type="Rotate">
+									<RotationX>0</RotationX>
+									<RotationY>0</RotationY>
+									<RotationZ>252</RotationZ>
+								</Distortion>
+							</Distortions>
+						</Episode>
+						<Episode>
+							<Name>Rotace 264°</Name>
+							<Distortions>
+								<Distortion i:type="Rotate">
+									<RotationX>0</RotationX>
+									<RotationY>0</RotationY>
+									<RotationZ>264</RotationZ>
+								</Distortion>
+							</Distortions>
+						</Episode>
+						<Episode>
+							<Name>Rotace 276°</Name>
+							<Distortions>
+								<Distortion i:type="Rotate">
+									<RotationX>0</RotationX>
+									<RotationY>0</RotationY>
+									<RotationZ>276</RotationZ>
+								</Distortion>
+							</Distortions>
+						</Episode>
+						<Episode>
+							<Name>Rotace 288°</Name>
+							<Distortions>
+								<Distortion i:type="Rotate">
+									<RotationX>0</RotationX>
+									<RotationY>0</RotationY>
+									<RotationZ>288</RotationZ>
+								</Distortion>
+							</Distortions>
+						</Episode>
+						<Episode>
+							<Name>Rotace 300°</Name>
+							<Distortions>
+								<Distortion i:type="Rotate">
+									<RotationX>0</RotationX>
+									<RotationY>0</RotationY>
+									<RotationZ>300</RotationZ>
+								</Distortion>
+							</Distortions>
+						</Episode>
+						<Episode>
+							<Name>Rotace 312°</Name>
+							<Distortions>
+								<Distortion i:type="Rotate">
+									<RotationX>0</RotationX>
+									<RotationY>0</RotationY>
+									<RotationZ>312</RotationZ>
+								</Distortion>
+							</Distortions>
+						</Episode>
+						<Episode>
+							<Name>Rotace 324°</Name>
+							<Distortions>
+								<Distortion i:type="Rotate">
+									<RotationX>0</RotationX>
+									<RotationY>0</RotationY>
+									<RotationZ>324</RotationZ>
+								</Distortion>
+							</Distortions>
+						</Episode>
+						<Episode>
+							<Name>Rotace 336°</Name>
+							<Distortions>
+								<Distortion i:type="Rotate">
+									<RotationX>0</RotationX>
+									<RotationY>0</RotationY>
+									<RotationZ>336</RotationZ>
+								</Distortion>
+							</Distortions>
+						</Episode>
+						<Episode>
+							<Name>Rotace 348°</Name>
+							<Distortions>
+								<Distortion i:type="Rotate">
+									<RotationX>0</RotationX>
+									<RotationY>0</RotationY>
+									<RotationZ>348</RotationZ>
+								</Distortion>
+							</Distortions>
+						</Episode>
+					</Episodes>
+				</SequencePart>
+			</Parts>
+		</Sequence>
+		<Sequence>
+			<Name>Náhlá rotace 30°</Name>
+			<EpisodeDuration>40</EpisodeDuration>
+			<PauseDuration>20</PauseDuration>
+			<MeasureIn3D>false</MeasureIn3D>
+			<ObjectName>Star</ObjectName>
+			<Parts>
+				<SequencePart>
+					<Name>Cvičná sekvence</Name>
+					<Description>Cvičná sekvence. Snažte se kopírovat tvar objektu co nejpřesněji. Pokračujte, dokud běží čas a dokud je objekt viditelný.</Description>
+					<EnableMeasurement>false</EnableMeasurement>
+					<Episodes>
+						<Episode>
+							<Name>Zácvik</Name>
+							<Distortions />
+						</Episode>
+						<Episode>
+							<Name>Zácvik</Name>
+							<Distortions />
+						</Episode>
+						<Episode>
+							<Name>Zácvik</Name>
+							<Distortions />
+						</Episode>
+						<Episode>
+							<Name>Zácvik</Name>
+							<Distortions />
+						</Episode>
+						<Episode>
+							<Name>Zácvik</Name>
+							<Distortions />
+						</Episode>
+					</Episodes>
+				</SequencePart>
+				<SequencePart>
+					<Name>Ostrá sekvence</Name>
+					<Description>Měřená sekvence. Stejné pokyny jako pro cvičnou sekvenci. Váš pohyb bude ovlivněn rotací.</Description>
+					<EnableMeasurement>true</EnableMeasurement>
+					<Episodes>
+						<Episode>
+							<Name>Rotace 0°</Name>
+							<Distortions>
+								<Distortion i:type="Rotate">
+									<RotationX>0</RotationX>
+									<RotationY>0</RotationY>
+									<RotationZ>0</RotationZ>
+								</Distortion>
+							</Distortions>
+						</Episode>
+						<Episode>
+							<Name>Rotace 30°</Name>
+							<Distortions>
+								<Distortion i:type="Rotate">
+									<RotationX>0</RotationX>
+									<RotationY>0</RotationY>
+									<RotationZ>30</RotationZ>
+								</Distortion>
+							</Distortions>
+						</Episode>
+						<Episode>
+							<Name>Rotace 60°</Name>
+							<Distortions>
+								<Distortion i:type="Rotate">
+									<RotationX>0</RotationX>
+									<RotationY>0</RotationY>
+									<RotationZ>60</RotationZ>
+								</Distortion>
+							</Distortions>
+						</Episode>
+						<Episode>
+							<Name>Rotace 90°</Name>
+							<Distortions>
+								<Distortion i:type="Rotate">
+									<RotationX>0</RotationX>
+									<RotationY>0</RotationY>
+									<RotationZ>90</RotationZ>
+								</Distortion>
+							</Distortions>
+						</Episode>
+						<Episode>
+							<Name>Rotace 120°</Name>
+							<Distortions>
+								<Distortion i:type="Rotate">
+									<RotationX>0</RotationX>
+									<RotationY>0</RotationY>
+									<RotationZ>120</RotationZ>
+								</Distortion>
+							</Distortions>
+						</Episode>
+						<Episode>
+							<Name>Rotace 150°</Name>
+							<Distortions>
+								<Distortion i:type="Rotate">
+									<RotationX>0</RotationX>
+									<RotationY>0</RotationY>
+									<RotationZ>150</RotationZ>
+								</Distortion>
+							</Distortions>
+						</Episode>
+						<Episode>
+							<Name>Rotace 180°</Name>
+							<Distortions>
+								<Distortion i:type="Rotate">
+									<RotationX>0</RotationX>
+									<RotationY>0</RotationY>
+									<RotationZ>180</RotationZ>
+								</Distortion>
+							</Distortions>
+						</Episode>
+						<Episode>
+							<Name>Rotace 210°</Name>
+							<Distortions>
+								<Distortion i:type="Rotate">
+									<RotationX>0</RotationX>
+									<RotationY>0</RotationY>
+									<RotationZ>210</RotationZ>
+								</Distortion>
+							</Distortions>
+						</Episode>
+						<Episode>
+							<Name>Rotace 240°</Name>
+							<Distortions>
+								<Distortion i:type="Rotate">
+									<RotationX>0</RotationX>
+									<RotationY>0</RotationY>
+									<RotationZ>240</RotationZ>
+								</Distortion>
+							</Distortions>
+						</Episode>
+						<Episode>
+							<Name>Rotace 270°</Name>
+							<Distortions>
+								<Distortion i:type="Rotate">
+									<RotationX>0</RotationX>
+									<RotationY>0</RotationY>
+									<RotationZ>270</RotationZ>
+								</Distortion>
+							</Distortions>
+						</Episode>
+						<Episode>
+							<Name>Rotace 300°</Name>
+							<Distortions>
+								<Distortion i:type="Rotate">
+									<RotationX>0</RotationX>
+									<RotationY>0</RotationY>
+									<RotationZ>300</RotationZ>
+								</Distortion>
+							</Distortions>
+						</Episode>
+						<Episode>
+							<Name>Rotace 330°</Name>
+							<Distortions>
+								<Distortion i:type="Rotate">
+									<RotationX>0</RotationX>
+									<RotationY>0</RotationY>
+									<RotationZ>330</RotationZ>
+								</Distortion>
+							</Distortions>
+						</Episode>
+						<Episode>
+							<Name>Rotace 0°</Name>
+							<Distortions>
+								<Distortion i:type="Rotate">
+									<RotationX>0</RotationX>
+									<RotationY>0</RotationY>
+									<RotationZ>0</RotationZ>
+								</Distortion>
+							</Distortions>
+						</Episode>
+						<Episode>
+							<Name>Rotace 30°</Name>
+							<Distortions>
+								<Distortion i:type="Rotate">
+									<RotationX>0</RotationX>
+									<RotationY>0</RotationY>
+									<RotationZ>30</RotationZ>
+								</Distortion>
+							</Distortions>
+						</Episode>
+						<Episode>
+							<Name>Rotace 60°</Name>
+							<Distortions>
+								<Distortion i:type="Rotate">
+									<RotationX>0</RotationX>
+									<RotationY>0</RotationY>
+									<RotationZ>60</RotationZ>
+								</Distortion>
+							</Distortions>
+						</Episode>
+						<Episode>
+							<Name>Rotace 90°</Name>
+							<Distortions>
+								<Distortion i:type="Rotate">
+									<RotationX>0</RotationX>
+									<RotationY>0</RotationY>
+									<RotationZ>90</RotationZ>
+								</Distortion>
+							</Distortions>
+						</Episode>
+						<Episode>
+							<Name>Rotace 120°</Name>
+							<Distortions>
+								<Distortion i:type="Rotate">
+									<RotationX>0</RotationX>
+									<RotationY>0</RotationY>
+									<RotationZ>120</RotationZ>
+								</Distortion>
+							</Distortions>
+						</Episode>
+						<Episode>
+							<Name>Rotace 150°</Name>
+							<Distortions>
+								<Distortion i:type="Rotate">
+									<RotationX>0</RotationX>
+									<RotationY>0</RotationY>
+									<RotationZ>150</RotationZ>
+								</Distortion>
+							</Distortions>
+						</Episode>
+						<Episode>
+							<Name>Rotace 180°</Name>
+							<Distortions>
+								<Distortion i:type="Rotate">
+									<RotationX>0</RotationX>
+									<RotationY>0</RotationY>
+									<RotationZ>180</RotationZ>
+								</Distortion>
+							</Distortions>
+						</Episode>
+						<Episode>
+							<Name>Rotace 210°</Name>
+							<Distortions>
+								<Distortion i:type="Rotate">
+									<RotationX>0</RotationX>
+									<RotationY>0</RotationY>
+									<RotationZ>210</RotationZ>
+								</Distortion>
+							</Distortions>
+						</Episode>
+						<Episode>
+							<Name>Rotace 240°</Name>
+							<Distortions>
+								<Distortion i:type="Rotate">
+									<RotationX>0</RotationX>
+									<RotationY>0</RotationY>
+									<RotationZ>240</RotationZ>
+								</Distortion>
+							</Distortions>
+						</Episode>
+						<Episode>
+							<Name>Rotace 270°</Name>
+							<Distortions>
+								<Distortion i:type="Rotate">
+									<RotationX>0</RotationX>
+									<RotationY>0</RotationY>
+									<RotationZ>270</RotationZ>
+								</Distortion>
+							</Distortions>
+						</Episode>
+						<Episode>
+							<Name>Rotace 300°</Name>
+							<Distortions>
+								<Distortion i:type="Rotate">
+									<RotationX>0</RotationX>
+									<RotationY>0</RotationY>
+									<RotationZ>300</RotationZ>
+								</Distortion>
+							</Distortions>
+						</Episode>
+						<Episode>
+							<Name>Rotace 330°</Name>
+							<Distortions>
+								<Distortion i:type="Rotate">
+									<RotationX>0</RotationX>
+									<RotationY>0</RotationY>
+									<RotationZ>330</RotationZ>
+								</Distortion>
+							</Distortions>
+						</Episode>
+						<Episode>
+							<Name>Rotace 0°</Name>
+							<Distortions>
+								<Distortion i:type="Rotate">
+									<RotationX>0</RotationX>
+									<RotationY>0</RotationY>
+									<RotationZ>0</RotationZ>
+								</Distortion>
+							</Distortions>
+						</Episode>
+						<Episode>
+							<Name>Rotace 30°</Name>
+							<Distortions>
+								<Distortion i:type="Rotate">
+									<RotationX>0</RotationX>
+									<RotationY>0</RotationY>
+									<RotationZ>30</RotationZ>
+								</Distortion>
+							</Distortions>
+						</Episode>
+						<Episode>
+							<Name>Rotace 60°</Name>
+							<Distortions>
+								<Distortion i:type="Rotate">
+									<RotationX>0</RotationX>
+									<RotationY>0</RotationY>
+									<RotationZ>60</RotationZ>
+								</Distortion>
+							</Distortions>
+						</Episode>
+						<Episode>
+							<Name>Rotace 90°</Name>
+							<Distortions>
+								<Distortion i:type="Rotate">
+									<RotationX>0</RotationX>
+									<RotationY>0</RotationY>
+									<RotationZ>90</RotationZ>
+								</Distortion>
+							</Distortions>
+						</Episode>
+						<Episode>
+							<Name>Rotace 120°</Name>
+							<Distortions>
+								<Distortion i:type="Rotate">
+									<RotationX>0</RotationX>
+									<RotationY>0</RotationY>
+									<RotationZ>120</RotationZ>
+								</Distortion>
+							</Distortions>
+						</Episode>
+						<Episode>
+							<Name>Rotace 150°</Name>
+							<Distortions>
+								<Distortion i:type="Rotate">
+									<RotationX>0</RotationX>
+									<RotationY>0</RotationY>
+									<RotationZ>150</RotationZ>
+								</Distortion>
+							</Distortions>
+						</Episode>
+					</Episodes>
+				</SequencePart>
+			</Parts>
+		</Sequence>
+		<Sequence>
+			<Name>Náhlá rotace 60°</Name>
+			<EpisodeDuration>40</EpisodeDuration>
+			<PauseDuration>20</PauseDuration>
+			<MeasureIn3D>false</MeasureIn3D>
+			<ObjectName>Star</ObjectName>
+			<Parts>
+				<SequencePart>
+					<Name>Cvičná sekvence</Name>
+					<Description>Cvičná sekvence. Snažte se kopírovat tvar objektu co nejpřesněji. Pokračujte, dokud běží čas a dokud je objekt viditelný.</Description>
+					<EnableMeasurement>false</EnableMeasurement>
+					<Episodes>
+						<Episode>
+							<Name>Zácvik</Name>
+							<Distortions />
+						</Episode>
+						<Episode>
+							<Name>Zácvik</Name>
+							<Distortions />
+						</Episode>
+						<Episode>
+							<Name>Zácvik</Name>
+							<Distortions />
+						</Episode>
+						<Episode>
+							<Name>Zácvik</Name>
+							<Distortions />
+						</Episode>
+						<Episode>
+							<Name>Zácvik</Name>
+							<Distortions />
+						</Episode>
+					</Episodes>
+				</SequencePart>
+				<SequencePart>
+					<Name>Ostrá sekvence</Name>
+					<Description>Měřená sekvence. Stejné pokyny jako pro cvičnou sekvenci. Váš pohyb bude ovlivněn rotací.</Description>
+					<EnableMeasurement>true</EnableMeasurement>
+					<Episodes>
+						<Episode>
+							<Name>Rotace 0°</Name>
+							<Distortions>
+								<Distortion i:type="Rotate">
+									<RotationX>0</RotationX>
+									<RotationY>0</RotationY>
+									<RotationZ>0</RotationZ>
+								</Distortion>
+							</Distortions>
+						</Episode>
+						<Episode>
+							<Name>Rotace 60°</Name>
+							<Distortions>
+								<Distortion i:type="Rotate">
+									<RotationX>0</RotationX>
+									<RotationY>0</RotationY>
+									<RotationZ>60</RotationZ>
+								</Distortion>
+							</Distortions>
+						</Episode>
+						<Episode>
+							<Name>Rotace 120°</Name>
+							<Distortions>
+								<Distortion i:type="Rotate">
+									<RotationX>0</RotationX>
+									<RotationY>0</RotationY>
+									<RotationZ>120</RotationZ>
+								</Distortion>
+							</Distortions>
+						</Episode>
+						<Episode>
+							<Name>Rotace 180°</Name>
+							<Distortions>
+								<Distortion i:type="Rotate">
+									<RotationX>0</RotationX>
+									<RotationY>0</RotationY>
+									<RotationZ>180</RotationZ>
+								</Distortion>
+							</Distortions>
+						</Episode>
+						<Episode>
+							<Name>Rotace 240°</Name>
+							<Distortions>
+								<Distortion i:type="Rotate">
+									<RotationX>0</RotationX>
+									<RotationY>0</RotationY>
+									<RotationZ>240</RotationZ>
+								</Distortion>
+							</Distortions>
+						</Episode>
+						<Episode>
+							<Name>Rotace 300°</Name>
+							<Distortions>
+								<Distortion i:type="Rotate">
+									<RotationX>0</RotationX>
+									<RotationY>0</RotationY>
+									<RotationZ>300</RotationZ>
+								</Distortion>
+							</Distortions>
+						</Episode>
+						<Episode>
+							<Name>Rotace 0°</Name>
+							<Distortions>
+								<Distortion i:type="Rotate">
+									<RotationX>0</RotationX>
+									<RotationY>0</RotationY>
+									<RotationZ>0</RotationZ>
+								</Distortion>
+							</Distortions>
+						</Episode>
+						<Episode>
+							<Name>Rotace 60°</Name>
+							<Distortions>
+								<Distortion i:type="Rotate">
+									<RotationX>0</RotationX>
+									<RotationY>0</RotationY>
+									<RotationZ>60</RotationZ>
+								</Distortion>
+							</Distortions>
+						</Episode>
+						<Episode>
+							<Name>Rotace 120°</Name>
+							<Distortions>
+								<Distortion i:type="Rotate">
+									<RotationX>0</RotationX>
+									<RotationY>0</RotationY>
+									<RotationZ>120</RotationZ>
+								</Distortion>
+							</Distortions>
+						</Episode>
+						<Episode>
+							<Name>Rotace 180°</Name>
+							<Distortions>
+								<Distortion i:type="Rotate">
+									<RotationX>0</RotationX>
+									<RotationY>0</RotationY>
+									<RotationZ>180</RotationZ>
+								</Distortion>
+							</Distortions>
+						</Episode>
+						<Episode>
+							<Name>Rotace 240°</Name>
+							<Distortions>
+								<Distortion i:type="Rotate">
+									<RotationX>0</RotationX>
+									<RotationY>0</RotationY>
+									<RotationZ>240</RotationZ>
+								</Distortion>
+							</Distortions>
+						</Episode>
+						<Episode>
+							<Name>Rotace 300°</Name>
+							<Distortions>
+								<Distortion i:type="Rotate">
+									<RotationX>0</RotationX>
+									<RotationY>0</RotationY>
+									<RotationZ>300</RotationZ>
+								</Distortion>
+							</Distortions>
+						</Episode>
+						<Episode>
+							<Name>Rotace 0°</Name>
+							<Distortions>
+								<Distortion i:type="Rotate">
+									<RotationX>0</RotationX>
+									<RotationY>0</RotationY>
+									<RotationZ>0</RotationZ>
+								</Distortion>
+							</Distortions>
+						</Episode>
+						<Episode>
+							<Name>Rotace 60°</Name>
+							<Distortions>
+								<Distortion i:type="Rotate">
+									<RotationX>0</RotationX>
+									<RotationY>0</RotationY>
+									<RotationZ>60</RotationZ>
+								</Distortion>
+							</Distortions>
+						</Episode>
+						<Episode>
+							<Name>Rotace 120°</Name>
+							<Distortions>
+								<Distortion i:type="Rotate">
+									<RotationX>0</RotationX>
+									<RotationY>0</RotationY>
+									<RotationZ>120</RotationZ>
+								</Distortion>
+							</Distortions>
+						</Episode>
+						<Episode>
+							<Name>Rotace 180°</Name>
+							<Distortions>
+								<Distortion i:type="Rotate">
+									<RotationX>0</RotationX>
+									<RotationY>0</RotationY>
+									<RotationZ>180</RotationZ>
+								</Distortion>
+							</Distortions>
+						</Episode>
+						<Episode>
+							<Name>Rotace 240°</Name>
+							<Distortions>
+								<Distortion i:type="Rotate">
+									<RotationX>0</RotationX>
+									<RotationY>0</RotationY>
+									<RotationZ>240</RotationZ>
+								</Distortion>
+							</Distortions>
+						</Episode>
+						<Episode>
+							<Name>Rotace 300°</Name>
+							<Distortions>
+								<Distortion i:type="Rotate">
+									<RotationX>0</RotationX>
+									<RotationY>0</RotationY>
+									<RotationZ>300</RotationZ>
+								</Distortion>
+							</Distortions>
+						</Episode>
+						<Episode>
+							<Name>Rotace 0°</Name>
+							<Distortions>
+								<Distortion i:type="Rotate">
+									<RotationX>0</RotationX>
+									<RotationY>0</RotationY>
+									<RotationZ>0</RotationZ>
+								</Distortion>
+							</Distortions>
+						</Episode>
+						<Episode>
+							<Name>Rotace 60°</Name>
+							<Distortions>
+								<Distortion i:type="Rotate">
+									<RotationX>0</RotationX>
+									<RotationY>0</RotationY>
+									<RotationZ>60</RotationZ>
+								</Distortion>
+							</Distortions>
+						</Episode>
+						<Episode>
+							<Name>Rotace 120°</Name>
+							<Distortions>
+								<Distortion i:type="Rotate">
+									<RotationX>0</RotationX>
+									<RotationY>0</RotationY>
+									<RotationZ>120</RotationZ>
+								</Distortion>
+							</Distortions>
+						</Episode>
+						<Episode>
+							<Name>Rotace 180°</Name>
+							<Distortions>
+								<Distortion i:type="Rotate">
+									<RotationX>0</RotationX>
+									<RotationY>0</RotationY>
+									<RotationZ>180</RotationZ>
+								</Distortion>
+							</Distortions>
+						</Episode>
+						<Episode>
+							<Name>Rotace 240°</Name>
+							<Distortions>
+								<Distortion i:type="Rotate">
+									<RotationX>0</RotationX>
+									<RotationY>0</RotationY>
+									<RotationZ>240</RotationZ>
+								</Distortion>
+							</Distortions>
+						</Episode>
+						<Episode>
+							<Name>Rotace 300°</Name>
+							<Distortions>
+								<Distortion i:type="Rotate">
+									<RotationX>0</RotationX>
+									<RotationY>0</RotationY>
+									<RotationZ>300</RotationZ>
+								</Distortion>
+							</Distortions>
+						</Episode>
+						<Episode>
+							<Name>Rotace 0°</Name>
+							<Distortions>
+								<Distortion i:type="Rotate">
+									<RotationX>0</RotationX>
+									<RotationY>0</RotationY>
+									<RotationZ>0</RotationZ>
+								</Distortion>
+							</Distortions>
+						</Episode>
+						<Episode>
+							<Name>Rotace 60°</Name>
+							<Distortions>
+								<Distortion i:type="Rotate">
+									<RotationX>0</RotationX>
+									<RotationY>0</RotationY>
+									<RotationZ>60</RotationZ>
+								</Distortion>
+							</Distortions>
+						</Episode>
+						<Episode>
+							<Name>Rotace 120°</Name>
+							<Distortions>
+								<Distortion i:type="Rotate">
+									<RotationX>0</RotationX>
+									<RotationY>0</RotationY>
+									<RotationZ>120</RotationZ>
+								</Distortion>
+							</Distortions>
+						</Episode>
+						<Episode>
+							<Name>Rotace 180°</Name>
+							<Distortions>
+								<Distortion i:type="Rotate">
+									<RotationX>0</RotationX>
+									<RotationY>0</RotationY>
+									<RotationZ>180</RotationZ>
+								</Distortion>
+							</Distortions>
+						</Episode>
+						<Episode>
+							<Name>Rotace 240°</Name>
+							<Distortions>
+								<Distortion i:type="Rotate">
+									<RotationX>0</RotationX>
+									<RotationY>0</RotationY>
+									<RotationZ>240</RotationZ>
+								</Distortion>
+							</Distortions>
+						</Episode>
+						<Episode>
+							<Name>Rotace 300°</Name>
+							<Distortions>
+								<Distortion i:type="Rotate">
+									<RotationX>0</RotationX>
+									<RotationY>0</RotationY>
+									<RotationZ>300</RotationZ>
+								</Distortion>
+							</Distortions>
+						</Episode>
+					</Episodes>
+				</SequencePart>
+			</Parts>
+		</Sequence>
+		<Sequence>
+			<Name>Mirroring - Vertikální</Name>
+			<EpisodeDuration>40</EpisodeDuration>
+			<PauseDuration>20</PauseDuration>
+			<MeasureIn3D>false</MeasureIn3D>
+			<ObjectName>Star</ObjectName>
+			<Parts>
+				<SequencePart>
+					<Name>Cvičná sekvence</Name>
+					<Description>Cvičná sekvence. Snažte se kopírovat tvar objektu co nejpřesněji. Pokračujte, dokud běží čas a dokud je objekt viditelný.</Description>
+					<EnableMeasurement>false</EnableMeasurement>
+					<Episodes>
+						<Episode>
+							<Name>Zácvik</Name>
+							<Distortions />
+						</Episode>
+						<Episode>
+							<Name>Zácvik</Name>
+							<Distortions />
+						</Episode>
+						<Episode>
+							<Name>Zácvik</Name>
+							<Distortions />
+						</Episode>
+						<Episode>
+							<Name>Zácvik</Name>
+							<Distortions />
+						</Episode>
+						<Episode>
+							<Name>Zácvik</Name>
+							<Distortions />
+						</Episode>
+					</Episodes>
+				</SequencePart>
+				<SequencePart>
+					<Name>Ostrá sekvence</Name>
+					<Description>Měřená sekvence. Stejné pokyny jako pro cvičnou sekvenci. Váš pohyb bude ozrcadlen.</Description>
+					<EnableMeasurement>true</EnableMeasurement>
+					<Episodes>
+						<Episode>
+							<Name>Mirror vertikální</Name>
+							<Distortions>
+								<Distortion i:type="Mirror">
+									<NormalX>1</NormalX>
+									<NormalY>0</NormalY>
+									<NormalZ>0</NormalZ>
+								</Distortion>
+							</Distortions>
+						</Episode>
+						<Episode>
+							<Name>Mirror vertikální</Name>
+							<Distortions>
+								<Distortion i:type="Mirror">
+									<NormalX>1</NormalX>
+									<NormalY>0</NormalY>
+									<NormalZ>0</NormalZ>
+								</Distortion>
+							</Distortions>
+						</Episode>
+						<Episode>
+							<Name>Mirror vertikální</Name>
+							<Distortions>
+								<Distortion i:type="Mirror">
+									<NormalX>1</NormalX>
+									<NormalY>0</NormalY>
+									<NormalZ>0</NormalZ>
+								</Distortion>
+							</Distortions>
+						</Episode>
+						<Episode>
+							<Name>Mirror vertikální</Name>
+							<Distortions>
+								<Distortion i:type="Mirror">
+									<NormalX>1</NormalX>
+									<NormalY>0</NormalY>
+									<NormalZ>0</NormalZ>
+								</Distortion>
+							</Distortions>
+						</Episode>
+						<Episode>
+							<Name>Mirror vertikální</Name>
+							<Distortions>
+								<Distortion i:type="Mirror">
+									<NormalX>1</NormalX>
+									<NormalY>0</NormalY>
+									<NormalZ>0</NormalZ>
+								</Distortion>
+							</Distortions>
+						</Episode>
+						<Episode>
+							<Name>Mirror vertikální</Name>
+							<Distortions>
+								<Distortion i:type="Mirror">
+									<NormalX>1</NormalX>
+									<NormalY>0</NormalY>
+									<NormalZ>0</NormalZ>
+								</Distortion>
+							</Distortions>
+						</Episode>
+						<Episode>
+							<Name>Mirror vertikální</Name>
+							<Distortions>
+								<Distortion i:type="Mirror">
+									<NormalX>1</NormalX>
+									<NormalY>0</NormalY>
+									<NormalZ>0</NormalZ>
+								</Distortion>
+							</Distortions>
+						</Episode>
+						<Episode>
+							<Name>Mirror vertikální</Name>
+							<Distortions>
+								<Distortion i:type="Mirror">
+									<NormalX>1</NormalX>
+									<NormalY>0</NormalY>
+									<NormalZ>0</NormalZ>
+								</Distortion>
+							</Distortions>
+						</Episode>
+						<Episode>
+							<Name>Mirror vertikální</Name>
+							<Distortions>
+								<Distortion i:type="Mirror">
+									<NormalX>1</NormalX>
+									<NormalY>0</NormalY>
+									<NormalZ>0</NormalZ>
+								</Distortion>
+							</Distortions>
+						</Episode>
+						<Episode>
+							<Name>Mirror vertikální</Name>
+							<Distortions>
+								<Distortion i:type="Mirror">
+									<NormalX>1</NormalX>
+									<NormalY>0</NormalY>
+									<NormalZ>0</NormalZ>
+								</Distortion>
+							</Distortions>
+						</Episode>
+						<Episode>
+							<Name>Mirror vertikální</Name>
+							<Distortions>
+								<Distortion i:type="Mirror">
+									<NormalX>1</NormalX>
+									<NormalY>0</NormalY>
+									<NormalZ>0</NormalZ>
+								</Distortion>
+							</Distortions>
+						</Episode>
+						<Episode>
+							<Name>Mirror vertikální</Name>
+							<Distortions>
+								<Distortion i:type="Mirror">
+									<NormalX>1</NormalX>
+									<NormalY>0</NormalY>
+									<NormalZ>0</NormalZ>
+								</Distortion>
+							</Distortions>
+						</Episode>
+						<Episode>
+							<Name>Mirror vertikální</Name>
+							<Distortions>
+								<Distortion i:type="Mirror">
+									<NormalX>1</NormalX>
+									<NormalY>0</NormalY>
+									<NormalZ>0</NormalZ>
+								</Distortion>
+							</Distortions>
+						</Episode>
+						<Episode>
+							<Name>Mirror vertikální</Name>
+							<Distortions>
+								<Distortion i:type="Mirror">
+									<NormalX>1</NormalX>
+									<NormalY>0</NormalY>
+									<NormalZ>0</NormalZ>
+								</Distortion>
+							</Distortions>
+						</Episode>
+						<Episode>
+							<Name>Mirror vertikální</Name>
+							<Distortions>
+								<Distortion i:type="Mirror">
+									<NormalX>1</NormalX>
+									<NormalY>0</NormalY>
+									<NormalZ>0</NormalZ>
+								</Distortion>
+							</Distortions>
+						</Episode>
+						<Episode>
+							<Name>Mirror vertikální</Name>
+							<Distortions>
+								<Distortion i:type="Mirror">
+									<NormalX>1</NormalX>
+									<NormalY>0</NormalY>
+									<NormalZ>0</NormalZ>
+								</Distortion>
+							</Distortions>
+						</Episode>
+						<Episode>
+							<Name>Mirror vertikální</Name>
+							<Distortions>
+								<Distortion i:type="Mirror">
+									<NormalX>1</NormalX>
+									<NormalY>0</NormalY>
+									<NormalZ>0</NormalZ>
+								</Distortion>
+							</Distortions>
+						</Episode>
+						<Episode>
+							<Name>Mirror vertikální</Name>
+							<Distortions>
+								<Distortion i:type="Mirror">
+									<NormalX>1</NormalX>
+									<NormalY>0</NormalY>
+									<NormalZ>0</NormalZ>
+								</Distortion>
+							</Distortions>
+						</Episode>
+						<Episode>
+							<Name>Mirror vertikální</Name>
+							<Distortions>
+								<Distortion i:type="Mirror">
+									<NormalX>1</NormalX>
+									<NormalY>0</NormalY>
+									<NormalZ>0</NormalZ>
+								</Distortion>
+							</Distortions>
+						</Episode>
+						<Episode>
+							<Name>Mirror vertikální</Name>
+							<Distortions>
+								<Distortion i:type="Mirror">
+									<NormalX>1</NormalX>
+									<NormalY>0</NormalY>
+									<NormalZ>0</NormalZ>
+								</Distortion>
+							</Distortions>
+						</Episode>
+						<Episode>
+							<Name>Mirror vertikální</Name>
+							<Distortions>
+								<Distortion i:type="Mirror">
+									<NormalX>1</NormalX>
+									<NormalY>0</NormalY>
+									<NormalZ>0</NormalZ>
+								</Distortion>
+							</Distortions>
+						</Episode>
+						<Episode>
+							<Name>Mirror vertikální</Name>
+							<Distortions>
+								<Distortion i:type="Mirror">
+									<NormalX>1</NormalX>
+									<NormalY>0</NormalY>
+									<NormalZ>0</NormalZ>
+								</Distortion>
+							</Distortions>
+						</Episode>
+						<Episode>
+							<Name>Mirror vertikální</Name>
+							<Distortions>
+								<Distortion i:type="Mirror">
+									<NormalX>1</NormalX>
+									<NormalY>0</NormalY>
+									<NormalZ>0</NormalZ>
+								</Distortion>
+							</Distortions>
+						</Episode>
+						<Episode>
+							<Name>Mirror vertikální</Name>
+							<Distortions>
+								<Distortion i:type="Mirror">
+									<NormalX>1</NormalX>
+									<NormalY>0</NormalY>
+									<NormalZ>0</NormalZ>
+								</Distortion>
+							</Distortions>
+						</Episode>
+						<Episode>
+							<Name>Mirror vertikální</Name>
+							<Distortions>
+								<Distortion i:type="Mirror">
+									<NormalX>1</NormalX>
+									<NormalY>0</NormalY>
+									<NormalZ>0</NormalZ>
+								</Distortion>
+							</Distortions>
+						</Episode>
+						<Episode>
+							<Name>Mirror vertikální</Name>
+							<Distortions>
+								<Distortion i:type="Mirror">
+									<NormalX>1</NormalX>
+									<NormalY>0</NormalY>
+									<NormalZ>0</NormalZ>
+								</Distortion>
+							</Distortions>
+						</Episode>
+						<Episode>
+							<Name>Mirror vertikální</Name>
+							<Distortions>
+								<Distortion i:type="Mirror">
+									<NormalX>1</NormalX>
+									<NormalY>0</NormalY>
+									<NormalZ>0</NormalZ>
+								</Distortion>
+							</Distortions>
+						</Episode>
+						<Episode>
+							<Name>Mirror vertikální</Name>
+							<Distortions>
+								<Distortion i:type="Mirror">
+									<NormalX>1</NormalX>
+									<NormalY>0</NormalY>
+									<NormalZ>0</NormalZ>
+								</Distortion>
+							</Distortions>
+						</Episode>
+						<Episode>
+							<Name>Mirror vertikální</Name>
+							<Distortions>
+								<Distortion i:type="Mirror">
+									<NormalX>1</NormalX>
+									<NormalY>0</NormalY>
+									<NormalZ>0</NormalZ>
+								</Distortion>
+							</Distortions>
+						</Episode>
+						<Episode>
+							<Name>Mirror vertikální</Name>
+							<Distortions>
+								<Distortion i:type="Mirror">
+									<NormalX>1</NormalX>
+									<NormalY>0</NormalY>
+									<NormalZ>0</NormalZ>
+								</Distortion>
+							</Distortions>
+						</Episode>
+					</Episodes>
+				</SequencePart>
+			</Parts>
+		</Sequence>
+		<Sequence>
+			<Name>Mirroring - Horizontální</Name>
+			<EpisodeDuration>40</EpisodeDuration>
+			<PauseDuration>20</PauseDuration>
+			<MeasureIn3D>false</MeasureIn3D>
+			<ObjectName>Star</ObjectName>
+			<Parts>
+				<SequencePart>
+					<Name>Cvičná sekvence</Name>
+					<Description>Cvičná sekvence. Snažte se kopírovat tvar objektu co nejpřesněji. Pokračujte, dokud běží čas a dokud je objekt viditelný.</Description>
+					<EnableMeasurement>false</EnableMeasurement>
+					<Episodes>
+						<Episode>
+							<Name>Zácvik</Name>
+							<Distortions />
+						</Episode>
+						<Episode>
+							<Name>Zácvik</Name>
+							<Distortions />
+						</Episode>
+						<Episode>
+							<Name>Zácvik</Name>
+							<Distortions />
+						</Episode>
+						<Episode>
+							<Name>Zácvik</Name>
+							<Distortions />
+						</Episode>
+						<Episode>
+							<Name>Zácvik</Name>
+							<Distortions />
+						</Episode>
+					</Episodes>
+				</SequencePart>
+				<SequencePart>
+					<Name>Ostrá sekvence</Name>
+					<Description>Měřená sekvence. Stejné pokyny jako pro cvičnou sekvenci. Váš pohyb bude ozrcadlen.</Description>
+					<EnableMeasurement>true</EnableMeasurement>
+					<Episodes>
+						<Episode>
+							<Name>Mirror horizontální</Name>
+							<Distortions>
+								<Distortion i:type="Mirror">
+									<NormalX>0</NormalX>
+									<NormalY>1</NormalY>
+									<NormalZ>0</NormalZ>
+								</Distortion>
+							</Distortions>
+						</Episode>
+						<Episode>
+							<Name>Mirror horizontální</Name>
+							<Distortions>
+								<Distortion i:type="Mirror">
+									<NormalX>0</NormalX>
+									<NormalY>1</NormalY>
+									<NormalZ>0</NormalZ>
+								</Distortion>
+							</Distortions>
+						</Episode>
+						<Episode>
+							<Name>Mirror horizontální</Name>
+							<Distortions>
+								<Distortion i:type="Mirror">
+									<NormalX>0</NormalX>
+									<NormalY>1</NormalY>
+									<NormalZ>0</NormalZ>
+								</Distortion>
+							</Distortions>
+						</Episode>
+						<Episode>
+							<Name>Mirror horizontální</Name>
+							<Distortions>
+								<Distortion i:type="Mirror">
+									<NormalX>0</NormalX>
+									<NormalY>1</NormalY>
+									<NormalZ>0</NormalZ>
+								</Distortion>
+							</Distortions>
+						</Episode>
+						<Episode>
+							<Name>Mirror horizontální</Name>
+							<Distortions>
+								<Distortion i:type="Mirror">
+									<NormalX>0</NormalX>
+									<NormalY>1</NormalY>
+									<NormalZ>0</NormalZ>
+								</Distortion>
+							</Distortions>
+						</Episode>
+						<Episode>
+							<Name>Mirror horizontální</Name>
+							<Distortions>
+								<Distortion i:type="Mirror">
+									<NormalX>0</NormalX>
+									<NormalY>1</NormalY>
+									<NormalZ>0</NormalZ>
+								</Distortion>
+							</Distortions>
+						</Episode>
+						<Episode>
+							<Name>Mirror horizontální</Name>
+							<Distortions>
+								<Distortion i:type="Mirror">
+									<NormalX>0</NormalX>
+									<NormalY>1</NormalY>
+									<NormalZ>0</NormalZ>
+								</Distortion>
+							</Distortions>
+						</Episode>
+						<Episode>
+							<Name>Mirror horizontální</Name>
+							<Distortions>
+								<Distortion i:type="Mirror">
+									<NormalX>0</NormalX>
+									<NormalY>1</NormalY>
+									<NormalZ>0</NormalZ>
+								</Distortion>
+							</Distortions>
+						</Episode>
+						<Episode>
+							<Name>Mirror horizontální</Name>
+							<Distortions>
+								<Distortion i:type="Mirror">
+									<NormalX>0</NormalX>
+									<NormalY>1</NormalY>
+									<NormalZ>0</NormalZ>
+								</Distortion>
+							</Distortions>
+						</Episode>
+						<Episode>
+							<Name>Mirror horizontální</Name>
+							<Distortions>
+								<Distortion i:type="Mirror">
+									<NormalX>0</NormalX>
+									<NormalY>1</NormalY>
+									<NormalZ>0</NormalZ>
+								</Distortion>
+							</Distortions>
+						</Episode>
+						<Episode>
+							<Name>Mirror horizontální</Name>
+							<Distortions>
+								<Distortion i:type="Mirror">
+									<NormalX>0</NormalX>
+									<NormalY>1</NormalY>
+									<NormalZ>0</NormalZ>
+								</Distortion>
+							</Distortions>
+						</Episode>
+						<Episode>
+							<Name>Mirror horizontální</Name>
+							<Distortions>
+								<Distortion i:type="Mirror">
+									<NormalX>0</NormalX>
+									<NormalY>1</NormalY>
+									<NormalZ>0</NormalZ>
+								</Distortion>
+							</Distortions>
+						</Episode>
+						<Episode>
+							<Name>Mirror horizontální</Name>
+							<Distortions>
+								<Distortion i:type="Mirror">
+									<NormalX>0</NormalX>
+									<NormalY>1</NormalY>
+									<NormalZ>0</NormalZ>
+								</Distortion>
+							</Distortions>
+						</Episode>
+						<Episode>
+							<Name>Mirror horizontální</Name>
+							<Distortions>
+								<Distortion i:type="Mirror">
+									<NormalX>0</NormalX>
+									<NormalY>1</NormalY>
+									<NormalZ>0</NormalZ>
+								</Distortion>
+							</Distortions>
+						</Episode>
+						<Episode>
+							<Name>Mirror horizontální</Name>
+							<Distortions>
+								<Distortion i:type="Mirror">
+									<NormalX>0</NormalX>
+									<NormalY>1</NormalY>
+									<NormalZ>0</NormalZ>
+								</Distortion>
+							</Distortions>
+						</Episode>
+						<Episode>
+							<Name>Mirror horizontální</Name>
+							<Distortions>
+								<Distortion i:type="Mirror">
+									<NormalX>0</NormalX>
+									<NormalY>1</NormalY>
+									<NormalZ>0</NormalZ>
+								</Distortion>
+							</Distortions>
+						</Episode>
+						<Episode>
+							<Name>Mirror horizontální</Name>
+							<Distortions>
+								<Distortion i:type="Mirror">
+									<NormalX>0</NormalX>
+									<NormalY>1</NormalY>
+									<NormalZ>0</NormalZ>
+								</Distortion>
+							</Distortions>
+						</Episode>
+						<Episode>
+							<Name>Mirror horizontální</Name>
+							<Distortions>
+								<Distortion i:type="Mirror">
+									<NormalX>0</NormalX>
+									<NormalY>1</NormalY>
+									<NormalZ>0</NormalZ>
+								</Distortion>
+							</Distortions>
+						</Episode>
+						<Episode>
+							<Name>Mirror horizontální</Name>
+							<Distortions>
+								<Distortion i:type="Mirror">
+									<NormalX>0</NormalX>
+									<NormalY>1</NormalY>
+									<NormalZ>0</NormalZ>
+								</Distortion>
+							</Distortions>
+						</Episode>
+						<Episode>
+							<Name>Mirror horizontální</Name>
+							<Distortions>
+								<Distortion i:type="Mirror">
+									<NormalX>0</NormalX>
+									<NormalY>1</NormalY>
+									<NormalZ>0</NormalZ>
+								</Distortion>
+							</Distortions>
+						</Episode>
+						<Episode>
+							<Name>Mirror horizontální</Name>
+							<Distortions>
+								<Distortion i:type="Mirror">
+									<NormalX>0</NormalX>
+									<NormalY>1</NormalY>
+									<NormalZ>0</NormalZ>
+								</Distortion>
+							</Distortions>
+						</Episode>
+						<Episode>
+							<Name>Mirror horizontální</Name>
+							<Distortions>
+								<Distortion i:type="Mirror">
+									<NormalX>0</NormalX>
+									<NormalY>1</NormalY>
+									<NormalZ>0</NormalZ>
+								</Distortion>
+							</Distortions>
+						</Episode>
+						<Episode>
+							<Name>Mirror horizontální</Name>
+							<Distortions>
+								<Distortion i:type="Mirror">
+									<NormalX>0</NormalX>
+									<NormalY>1</NormalY>
+									<NormalZ>0</NormalZ>
+								</Distortion>
+							</Distortions>
+						</Episode>
+						<Episode>
+							<Name>Mirror horizontální</Name>
+							<Distortions>
+								<Distortion i:type="Mirror">
+									<NormalX>0</NormalX>
+									<NormalY>1</NormalY>
+									<NormalZ>0</NormalZ>
+								</Distortion>
+							</Distortions>
+						</Episode>
+						<Episode>
+							<Name>Mirror horizontální</Name>
+							<Distortions>
+								<Distortion i:type="Mirror">
+									<NormalX>0</NormalX>
+									<NormalY>1</NormalY>
+									<NormalZ>0</NormalZ>
+								</Distortion>
+							</Distortions>
+						</Episode>
+						<Episode>
+							<Name>Mirror horizontální</Name>
+							<Distortions>
+								<Distortion i:type="Mirror">
+									<NormalX>0</NormalX>
+									<NormalY>1</NormalY>
+									<NormalZ>0</NormalZ>
+								</Distortion>
+							</Distortions>
+						</Episode>
+						<Episode>
+							<Name>Mirror horizontální</Name>
+							<Distortions>
+								<Distortion i:type="Mirror">
+									<NormalX>0</NormalX>
+									<NormalY>1</NormalY>
+									<NormalZ>0</NormalZ>
+								</Distortion>
+							</Distortions>
+						</Episode>
+						<Episode>
+							<Name>Mirror horizontální</Name>
+							<Distortions>
+								<Distortion i:type="Mirror">
+									<NormalX>0</NormalX>
+									<NormalY>1</NormalY>
+									<NormalZ>0</NormalZ>
+								</Distortion>
+							</Distortions>
+						</Episode>
+						<Episode>
+							<Name>Mirror horizontální</Name>
+							<Distortions>
+								<Distortion i:type="Mirror">
+									<NormalX>0</NormalX>
+									<NormalY>1</NormalY>
+									<NormalZ>0</NormalZ>
+								</Distortion>
+							</Distortions>
+						</Episode>
+						<Episode>
+							<Name>Mirror horizontální</Name>
+							<Distortions>
+								<Distortion i:type="Mirror">
+									<NormalX>0</NormalX>
+									<NormalY>1</NormalY>
+									<NormalZ>0</NormalZ>
+								</Distortion>
+							</Distortions>
+						</Episode>
+					</Episodes>
+				</SequencePart>
+			</Parts>
+		</Sequence>
+		<Sequence>
+			<Name>Mirroring - Střídavý</Name>
+			<EpisodeDuration>40</EpisodeDuration>
+			<PauseDuration>20</PauseDuration>
+			<MeasureIn3D>false</MeasureIn3D>
+			<ObjectName>Star</ObjectName>
+			<Parts>
+				<SequencePart>
+					<Name>Cvičná sekvence</Name>
+					<Description>Cvičná sekvence. Snažte se kopírovat tvar objektu co nejpřesněji. Pokračujte, dokud běží čas a dokud je objekt viditelný.</Description>
+					<EnableMeasurement>false</EnableMeasurement>
+					<Episodes>
+						<Episode>
+							<Name>Zácvik</Name>
+							<Distortions />
+						</Episode>
+						<Episode>
+							<Name>Zácvik</Name>
+							<Distortions />
+						</Episode>
+						<Episode>
+							<Name>Zácvik</Name>
+							<Distortions />
+						</Episode>
+						<Episode>
+							<Name>Zácvik</Name>
+							<Distortions />
+						</Episode>
+						<Episode>
+							<Name>Zácvik</Name>
+							<Distortions />
+						</Episode>
+					</Episodes>
+				</SequencePart>
+				<SequencePart>
+					<Name>Ostrá sekvence</Name>
+					<Description>Měřená sekvence. Stejné pokyny jako pro cvičnou sekvenci. Váš pohyb bude ozrcadlen.</Description>
+					<EnableMeasurement>true</EnableMeasurement>
+					<Episodes>
+						<Episode>
+							<Name>Mirror horizontální</Name>
+							<Distortions>
+								<Distortion i:type="Mirror">
+									<NormalX>0</NormalX>
+									<NormalY>1</NormalY>
+									<NormalZ>0</NormalZ>
+								</Distortion>
+							</Distortions>
+						</Episode>
+						<Episode>
+							<Name>Mirror vertikální</Name>
+							<Distortions>
+								<Distortion i:type="Mirror">
+									<NormalX>1</NormalX>
+									<NormalY>0</NormalY>
+									<NormalZ>0</NormalZ>
+								</Distortion>
+							</Distortions>
+						</Episode>
+						<Episode>
+							<Name>Mirror horizontální</Name>
+							<Distortions>
+								<Distortion i:type="Mirror">
+									<NormalX>0</NormalX>
+									<NormalY>1</NormalY>
+									<NormalZ>0</NormalZ>
+								</Distortion>
+							</Distortions>
+						</Episode>
+						<Episode>
+							<Name>Mirror vertikální</Name>
+							<Distortions>
+								<Distortion i:type="Mirror">
+									<NormalX>1</NormalX>
+									<NormalY>0</NormalY>
+									<NormalZ>0</NormalZ>
+								</Distortion>
+							</Distortions>
+						</Episode>
+						<Episode>
+							<Name>Mirror horizontální</Name>
+							<Distortions>
+								<Distortion i:type="Mirror">
+									<NormalX>0</NormalX>
+									<NormalY>1</NormalY>
+									<NormalZ>0</NormalZ>
+								</Distortion>
+							</Distortions>
+						</Episode>
+						<Episode>
+							<Name>Mirror vertikální</Name>
+							<Distortions>
+								<Distortion i:type="Mirror">
+									<NormalX>1</NormalX>
+									<NormalY>0</NormalY>
+									<NormalZ>0</NormalZ>
+								</Distortion>
+							</Distortions>
+						</Episode>
+						<Episode>
+							<Name>Mirror horizontální</Name>
+							<Distortions>
+								<Distortion i:type="Mirror">
+									<NormalX>0</NormalX>
+									<NormalY>1</NormalY>
+									<NormalZ>0</NormalZ>
+								</Distortion>
+							</Distortions>
+						</Episode>
+						<Episode>
+							<Name>Mirror vertikální</Name>
+							<Distortions>
+								<Distortion i:type="Mirror">
+									<NormalX>1</NormalX>
+									<NormalY>0</NormalY>
+									<NormalZ>0</NormalZ>
+								</Distortion>
+							</Distortions>
+						</Episode>
+						<Episode>
+							<Name>Mirror horizontální</Name>
+							<Distortions>
+								<Distortion i:type="Mirror">
+									<NormalX>0</NormalX>
+									<NormalY>1</NormalY>
+									<NormalZ>0</NormalZ>
+								</Distortion>
+							</Distortions>
+						</Episode>
+						<Episode>
+							<Name>Mirror vertikální</Name>
+							<Distortions>
+								<Distortion i:type="Mirror">
+									<NormalX>1</NormalX>
+									<NormalY>0</NormalY>
+									<NormalZ>0</NormalZ>
+								</Distortion>
+							</Distortions>
+						</Episode>
+						<Episode>
+							<Name>Mirror horizontální</Name>
+							<Distortions>
+								<Distortion i:type="Mirror">
+									<NormalX>0</NormalX>
+									<NormalY>1</NormalY>
+									<NormalZ>0</NormalZ>
+								</Distortion>
+							</Distortions>
+						</Episode>
+						<Episode>
+							<Name>Mirror vertikální</Name>
+							<Distortions>
+								<Distortion i:type="Mirror">
+									<NormalX>1</NormalX>
+									<NormalY>0</NormalY>
+									<NormalZ>0</NormalZ>
+								</Distortion>
+							</Distortions>
+						</Episode>
+						<Episode>
+							<Name>Mirror horizontální</Name>
+							<Distortions>
+								<Distortion i:type="Mirror">
+									<NormalX>0</NormalX>
+									<NormalY>1</NormalY>
+									<NormalZ>0</NormalZ>
+								</Distortion>
+							</Distortions>
+						</Episode>
+						<Episode>
+							<Name>Mirror vertikální</Name>
+							<Distortions>
+								<Distortion i:type="Mirror">
+									<NormalX>1</NormalX>
+									<NormalY>0</NormalY>
+									<NormalZ>0</NormalZ>
+								</Distortion>
+							</Distortions>
+						</Episode>
+						<Episode>
+							<Name>Mirror horizontální</Name>
+							<Distortions>
+								<Distortion i:type="Mirror">
+									<NormalX>0</NormalX>
+									<NormalY>1</NormalY>
+									<NormalZ>0</NormalZ>
+								</Distortion>
+							</Distortions>
+						</Episode>
+						<Episode>
+							<Name>Mirror vertikální</Name>
+							<Distortions>
+								<Distortion i:type="Mirror">
+									<NormalX>1</NormalX>
+									<NormalY>0</NormalY>
+									<NormalZ>0</NormalZ>
+								</Distortion>
+							</Distortions>
+						</Episode>
+						<Episode>
+							<Name>Mirror horizontální</Name>
+							<Distortions>
+								<Distortion i:type="Mirror">
+									<NormalX>0</NormalX>
+									<NormalY>1</NormalY>
+									<NormalZ>0</NormalZ>
+								</Distortion>
+							</Distortions>
+						</Episode>
+						<Episode>
+							<Name>Mirror vertikální</Name>
+							<Distortions>
+								<Distortion i:type="Mirror">
+									<NormalX>1</NormalX>
+									<NormalY>0</NormalY>
+									<NormalZ>0</NormalZ>
+								</Distortion>
+							</Distortions>
+						</Episode>
+						<Episode>
+							<Name>Mirror horizontální</Name>
+							<Distortions>
+								<Distortion i:type="Mirror">
+									<NormalX>0</NormalX>
+									<NormalY>1</NormalY>
+									<NormalZ>0</NormalZ>
+								</Distortion>
+							</Distortions>
+						</Episode>
+						<Episode>
+							<Name>Mirror vertikální</Name>
+							<Distortions>
+								<Distortion i:type="Mirror">
+									<NormalX>1</NormalX>
+									<NormalY>0</NormalY>
+									<NormalZ>0</NormalZ>
+								</Distortion>
+							</Distortions>
+						</Episode>
+						<Episode>
+							<Name>Mirror horizontální</Name>
+							<Distortions>
+								<Distortion i:type="Mirror">
+									<NormalX>0</NormalX>
+									<NormalY>1</NormalY>
+									<NormalZ>0</NormalZ>
+								</Distortion>
+							</Distortions>
+						</Episode>
+						<Episode>
+							<Name>Mirror vertikální</Name>
+							<Distortions>
+								<Distortion i:type="Mirror">
+									<NormalX>1</NormalX>
+									<NormalY>0</NormalY>
+									<NormalZ>0</NormalZ>
+								</Distortion>
+							</Distortions>
+						</Episode>
+						<Episode>
+							<Name>Mirror horizontální</Name>
+							<Distortions>
+								<Distortion i:type="Mirror">
+									<NormalX>0</NormalX>
+									<NormalY>1</NormalY>
+									<NormalZ>0</NormalZ>
+								</Distortion>
+							</Distortions>
+						</Episode>
+						<Episode>
+							<Name>Mirror vertikální</Name>
+							<Distortions>
+								<Distortion i:type="Mirror">
+									<NormalX>1</NormalX>
+									<NormalY>0</NormalY>
+									<NormalZ>0</NormalZ>
+								</Distortion>
+							</Distortions>
+						</Episode>
+						<Episode>
+							<Name>Mirror horizontální</Name>
+							<Distortions>
+								<Distortion i:type="Mirror">
+									<NormalX>0</NormalX>
+									<NormalY>1</NormalY>
+									<NormalZ>0</NormalZ>
+								</Distortion>
+							</Distortions>
+						</Episode>
+						<Episode>
+							<Name>Mirror vertikální</Name>
+							<Distortions>
+								<Distortion i:type="Mirror">
+									<NormalX>1</NormalX>
+									<NormalY>0</NormalY>
+									<NormalZ>0</NormalZ>
+								</Distortion>
+							</Distortions>
+						</Episode>
+						<Episode>
+							<Name>Mirror horizontální</Name>
+							<Distortions>
+								<Distortion i:type="Mirror">
+									<NormalX>0</NormalX>
+									<NormalY>1</NormalY>
+									<NormalZ>0</NormalZ>
+								</Distortion>
+							</Distortions>
+						</Episode>
+						<Episode>
+							<Name>Mirror vertikální</Name>
+							<Distortions>
+								<Distortion i:type="Mirror">
+									<NormalX>1</NormalX>
+									<NormalY>0</NormalY>
+									<NormalZ>0</NormalZ>
+								</Distortion>
+							</Distortions>
+						</Episode>
+						<Episode>
+							<Name>Mirror horizontální</Name>
+							<Distortions>
+								<Distortion i:type="Mirror">
+									<NormalX>0</NormalX>
+									<NormalY>1</NormalY>
+									<NormalZ>0</NormalZ>
+								</Distortion>
+							</Distortions>
+						</Episode>
+						<Episode>
+							<Name>Mirror vertikální</Name>
+							<Distortions>
+								<Distortion i:type="Mirror">
+									<NormalX>1</NormalX>
+									<NormalY>0</NormalY>
+									<NormalZ>0</NormalZ>
+								</Distortion>
+							</Distortions>
+						</Episode>
+					</Episodes>
+				</SequencePart>
+			</Parts>
+		</Sequence>
+	</Sequences>
+</Settings>

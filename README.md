@@ -22,7 +22,7 @@ folder Application inside this folder, specifically.
 path.
 - `Assets/Scenes` contains created Scenes.
 
-The `build` folder contains the following files:
+The `FinalApp` folder contains the following files:
 - `SensorimotorAdaptation.apk` installer for installing the
 application on Oculus Quest 2 headset.
 - `settings.xml` with some predefined sequences. It contains the
